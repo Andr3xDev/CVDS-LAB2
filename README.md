@@ -8,7 +8,7 @@
 
 #### ¿Cúal es su mayor utilidad?
 - Permitir al desarrollador comprender el estado del proyecto durante todo su cliclo de vida, de una forma rapida y estandarizada
-- 
+
 #### Fases de Maven
 - Para un default lifecycle se tienen las siguientes 7 fases:
   1. `Validate` -> Valida que el proyecto este correcto y que toda la información necesaria este diponible
