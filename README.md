@@ -1,6 +1,37 @@
 # CVDS-LAB2
 
+## :hammer: Construcción
 
+Proceso de construcción de proyecto en Maven
+
+![image](https://github.com/user-attachments/assets/b8420a50-2b4d-4700-8dd5-8c4ff3403ff7)
+![image](https://github.com/user-attachments/assets/a3c6f8d6-f8ec-43a3-a26d-83cbe45e638b)
+![image](https://github.com/user-attachments/assets/336f1490-2670-4ea8-9d12-5eb3589d3a66)
+![image](https://github.com/user-attachments/assets/6654d7b8-6636-499d-9acd-7b7b17f967bd)
+![image](https://github.com/user-attachments/assets/fe3db421-473b-4017-a14f-cc01cbf2714f)
+
+
+## :hammer_and_wrench: Compilar y Ejecutar
+Despues de compilar correctamente con el comando `mvn package`
+
+Ejecutamos con `mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.archetype.App"`
+y comprobamos que se ejecuta correctamente
+
+![image execute hello world](https://github.com/user-attachments/assets/940e7d34-1973-4f3d-9bc1-cb534d958f51)
+
+Ahora cambiamos la clase `App.java` y añadimos la posibilidad de un saludo personalizado para nombre y nombre-apellido:
+
+Ejecutamos con `mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.archetype.App" -Dexec.args="Nicole"`
+Y obtenemos correctamente
+
+![image execute hello name](https://github.com/user-attachments/assets/ca378c4b-9aae-4866-b4cd-dfdead15c8d0)
+
+Ahora ejecutammos con `mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.archetype.App" -Dexec.args="Nicole Calderon"`
+Y comprobamos su funcionamiento
+
+![image execute hello name-last name](https://github.com/user-attachments/assets/44ed8a49-dcd8-4b42-9e03-3039c970e543)
+
+En cada uno de los cambios al código se compila nuevamente con `mvn package`
 
 ## :heavy_check_mark: Herramienta Maven
 
