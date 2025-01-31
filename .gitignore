@@ -1,5 +1,13 @@
 # IDE's
 .idea/
 
+#vscode
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
 # Maven files
 target/
