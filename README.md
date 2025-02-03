@@ -2,11 +2,21 @@
 
 ## :hammer: Construcción
 
-Proceso de construcción de proyecto en Maven
+#### Proceso de construcción de proyecto en Maven:
+En la creación de proyecto con Maven, iniciamos buscando y aplicando los comandos sugeridos en el laboratorio para crear el proyecto con ayuda de los arquetipos
 
 ![image](https://github.com/user-attachments/assets/b8420a50-2b4d-4700-8dd5-8c4ff3403ff7)
+
+Confirmamos la correcta creación de  Patterns
+
 ![image](https://github.com/user-attachments/assets/a3c6f8d6-f8ec-43a3-a26d-83cbe45e638b)
+
+Revisamos la estructura de los directorios y archivos con `tree`
+
 ![image](https://github.com/user-attachments/assets/336f1490-2670-4ea8-9d12-5eb3589d3a66)
+
+Ahora ajustamos algunas configuraciones del proyecto, editando el archivo `pom.xml`
+
 ![image](https://github.com/user-attachments/assets/6654d7b8-6636-499d-9acd-7b7b17f967bd)
 ![image](https://github.com/user-attachments/assets/fe3db421-473b-4017-a14f-cc01cbf2714f)
 
@@ -62,3 +72,17 @@ Maven cuenta con 3 ciclos de vida de construcción que son: Default, Clean y Sit
   
 #### ¿Qué es? y ¿para qué sirve el repositorio central de maven?
 - Maven Central es un repositorio de codigo abierto y el principal registro de software, complementos, bibliotecas y marcos de Java. Permite a los desarrolladores gestionar las dependencias de sus proyectos de manera eficaz
+
+## ✏️ Fábrica
+Al revisar y comparar nosotros decidimos atender a `Simple Factory` debido a es el que mejor se alinea con la estructura que tenemos. En este caso en la clase `ShapeMain` contiene una clase `factory` que crea los elementos con ayuda del parametro.
+
+## 💻 Desarrollo y Aplicación
+Creamos la aplicación siguiendo todas las sugerencias entregadas en el laboratorio, como se puede evidenciar. En los archivos de este repositorio se encuentra la aplicación creada de Shapes y en este documento se agrgaran las pruebas realizadas
+
+![Imagen](https://github.com/user-attachments/assets/1b4c171a-7d12-4e92-8c31-8b006115e084)
+
+![Imagen d](https://github.com/user-attachments/assets/65494c33-9838-4aae-b231-6f62f883b18b)
+
+![Imagena](https://github.com/user-attachments/assets/f3179915-b345-4efc-9663-53b87f33f4db)
+
+Evidenciamos que funciona correctamente respecto al código proporcionado
