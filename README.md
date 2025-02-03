@@ -1,5 +1,10 @@
-# CVDS-LAB2
-
+<div align="center">
+<h1 align="center">CVDS-LAB2</h1>
+  <p align="center">
+    Utilizacion de Maven e integracion con git
+    <br />
+  </p>
+</div>
 </br>
 
 ## Colaboradores
@@ -101,3 +106,8 @@ Creamos la aplicación siguiendo todas las sugerencias entregadas en el laborato
 ![Imagena](https://github.com/user-attachments/assets/f3179915-b345-4efc-9663-53b87f33f4db)
 
 Evidenciamos que funciona correctamente respecto al código proporcionado
+
+</br>
+
+## Archivo ignore
+En git, tenemos la opcion de crear un archivo de nombre *.gitignore*. Este esta diseñado para indicar que archivos o directorios van a ser considerados como validos para subir al repositorio remoto. Aquellos archivos excluidos, seran ignorados por completo en el momento de realizar un `git add (ALGO)`. Esto es algo muy util cuando se manejan proyectos donde se tiene que construir el codigo para su correcto funcionamiento como es el caso de la carpeta *target* con maven o *.env* usando python, ademas, evitamos subir archivs que se crean con el proyecto y hacemos que el repositorio sea mas lijero y mas limpio.
