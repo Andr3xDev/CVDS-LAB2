@@ -1,5 +1,13 @@
 # CVDS-LAB2
 
+</br>
+
+## Colaboradores
+- Nicole Dayan Calderón Arévalo
+- Andrés Felipe Chavarro Plazas
+
+</br>
+
 ## :hammer: Construcción
 
 #### Proceso de construcción de proyecto en Maven:
@@ -20,6 +28,7 @@ Ahora ajustamos algunas configuraciones del proyecto, editando el archivo `pom.x
 ![image](https://github.com/user-attachments/assets/6654d7b8-6636-499d-9acd-7b7b17f967bd)
 ![image](https://github.com/user-attachments/assets/fe3db421-473b-4017-a14f-cc01cbf2714f)
 
+</br>
 
 ## :hammer_and_wrench: Compilar y Ejecutar
 Despues de compilar correctamente con el comando `mvn package`
@@ -42,6 +51,8 @@ Y comprobamos su funcionamiento
 ![image execute hello name-last name](https://github.com/user-attachments/assets/44ed8a49-dcd8-4b42-9e03-3039c970e543)
 
 En cada uno de los cambios al código se compila nuevamente con `mvn package`
+
+</br>
 
 ## :heavy_check_mark: Herramienta Maven
 
@@ -73,8 +84,12 @@ Maven cuenta con 3 ciclos de vida de construcción que son: Default, Clean y Sit
 #### ¿Qué es? y ¿para qué sirve el repositorio central de maven?
 - Maven Central es un repositorio de codigo abierto y el principal registro de software, complementos, bibliotecas y marcos de Java. Permite a los desarrolladores gestionar las dependencias de sus proyectos de manera eficaz
 
+</br>
+
 ## ✏️ Fábrica
-Al revisar y comparar nosotros decidimos atender a `Simple Factory` debido a es el que mejor se alinea con la estructura que tenemos. En este caso en la clase `ShapeMain` contiene una clase `factory` que crea los elementos con ayuda del parametro.
+Al revisar y comparar nosotros decidimos atender a `Simple Factory` debido a es el que mejor se alinea con la estructura que tenemos. En este caso, la clase `ShapeMain` contiene una clase `factory` que crea los elementos con ayuda del parametro dado al ejecutar la clase. Para ello creamos dicha clase y con ayuda de un swich podemos dar diversas opciones para la creacion de las clases. Por otro lado, usamos la clase dada para la enumeracion o identificacion de parametros dados en la clase main para poder garantizar que los parametros sean lejibles para un swich.
+
+</br>
 
 ## 💻 Desarrollo y Aplicación
 Creamos la aplicación siguiendo todas las sugerencias entregadas en el laboratorio, como se puede evidenciar. En los archivos de este repositorio se encuentra la aplicación creada de Shapes y en este documento se agrgaran las pruebas realizadas
